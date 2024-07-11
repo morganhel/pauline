@@ -1,0 +1,12 @@
+.header{
+    position: relative;
+
+    &__logo{
+        position: absolute;
+        width:60px;
+    }
+
+    &__nav{
+        margin-top: 20px;
+    }
+}

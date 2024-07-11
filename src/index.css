@@ -1,13 +1,76 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Farsan&family=Jomolhari&display=swap");
+h2 {
+  font-family: "Jomolhari", serif;
+  color: #733F43;
+  font-size: 35px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.banner {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
+.banner__bg {
+  position: absolute;
+  z-index: -1000;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.banner__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner__content--logo {
+  width: 150px;
+}
+.banner__content--title {
+  font-family: "Jomolhari", serif;
+  font-size: 40px;
+  color: #3F6173;
+  margin: 0;
+}
+
+.nav {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  align-items: center;
+  z-index: 2;
+  position: sticky;
+  top: 0;
+}
+.nav__link {
+  font-family: "Beiruti", sans-serif;
+  color: #3F6173;
+  font-size: 25px;
+  cursor: pointer;
+}
+.nav__link:hover {
+  text-decoration: underline;
+}
+.nav__link:active {
+  text-decoration: underline;
+}
+
+.header {
+  position: relative;
+}
+.header__logo {
+  position: absolute;
+  width: 60px;
+}
+.header__nav {
+  margin-top: 20px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}/*# sourceMappingURL=index.css.map */
