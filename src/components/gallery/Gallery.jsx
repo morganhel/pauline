@@ -5,7 +5,6 @@ function Gallery() {
 
     return (
         <div className='gallery'>
-            <h3 className='gallery__title'>filtres</h3>
             <div className='gallery__content'>
                 {Photos.map((photo)=>{
                     return(

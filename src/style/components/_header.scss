@@ -1,9 +1,17 @@
 .header{
     position: relative;
+    z-index:2;
+    position:sticky;
+    top:0;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
 
     &__logo{
         position: absolute;
-        width:60px;
+        left:0;
+        height: 100%;
     }
 
     &__nav{

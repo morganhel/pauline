@@ -1,5 +1,8 @@
+.page1{
+    background-color: $color-2;
+}
+
 .portfolio{
     @include container;
-    background-color: $color-2;
 }
 

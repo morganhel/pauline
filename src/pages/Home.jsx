@@ -8,11 +8,13 @@ function Home() {
         <>
         <main>
             <Banner />
+            <div className='page1'>
             <Header />
-            <section className='portfolio'>
-                <h2 className='portfolio__title'>PORTFOLIO</h2>
-                <Gallery />
-            </section>
+                <section className='portfolio'>
+                    <h2 className='portfolio__title'>PORTFOLIO</h2>
+                    <Gallery />
+                </section>
+            </div>
         </main>
         </>
     )
