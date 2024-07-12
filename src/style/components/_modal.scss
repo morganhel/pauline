@@ -19,9 +19,6 @@
         width: 40%;
         height: 70%;
 
-        @media (max-width: $bp-t) {
-            width:70%;
-        }
 
         &--close{
             position: absolute;
@@ -36,10 +33,6 @@
         &--title{
             font-weight: 700;
             font-size: 40px;
-
-            @media (max-width: $bp-m) {
-                font-size:30px;
-            }
         }
 
         &--txt{
