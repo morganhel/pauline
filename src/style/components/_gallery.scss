@@ -1,0 +1,13 @@
+.gallery{
+
+    &__content{
+        column-count: 4;
+        column-gap: 1em;
+
+        img{
+            width: 100%;
+            margin-bottom: 1em;
+            display:block;
+        }
+    }
+}
