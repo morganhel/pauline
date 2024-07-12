@@ -40,9 +40,6 @@ h2 {
   gap: 30px;
   list-style: none;
   align-items: center;
-  z-index: 2;
-  position: sticky;
-  top: 0;
 }
 .nav__link {
   font-family: "Beiruti", sans-serif;
