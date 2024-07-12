@@ -1,12 +1,15 @@
+import { NavLink } from "react-router-dom";
+
 function Banner(){
     return(
         <nav>
+            
             <ul className="nav">
-                <li><a className="nav__link">ACCUEIL</a></li>
-                <li><a className="nav__link">PORTFOLIO</a></li>
-                <li><a className="nav__link">A PROPOS</a></li>
-                <li><a className="nav__link">SEANCES</a></li>
-                <li><a className="nav__link">CONTACT</a></li>
+                <li><NavLink to="/" className="nav__link">ACCUEIL</NavLink></li>
+                <li><NavLink to="/#portfolio" className="nav__link">PORTFOLIO</NavLink></li>
+                <li><NavLink to="/apropos" className="nav__link">A PROPOS</NavLink></li>
+                <li><NavLink to="/" className="nav__link">SEANCES</NavLink></li>
+                <li><NavLink to="/" className="nav__link">CONTACT</NavLink></li>
             </ul>
         </nav>
     )

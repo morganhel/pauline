@@ -43,7 +43,7 @@ h2 {
 }
 .nav__link {
   font-family: "Beiruti", sans-serif;
-  color: #3F6173;
+  color: #2d4552;
   font-size: 25px;
   cursor: pointer;
 }
@@ -154,6 +154,59 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
   padding-bottom: 30px;
+}
+
+.apropos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.apropos__content {
+  background-color: #3F6173;
+  display: flex;
+  padding: 50px 150px;
+  justify-content: space-around;
+  gap: 100px;
+}
+.apropos__content__photo {
+  object-fit: cover;
+  border-radius: 25px;
+  border: solid 20px #B6DEF2;
+}
+.apropos__content__txt {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  padding: 15px 0;
+}
+.apropos__content__txt--title {
+  color: white;
+  font-family: "Farsan", cursive;
+  font-size: 35px;
+  font-weight: 100;
+  margin: 0;
+}
+.apropos__content__txt--p {
+  color: #B6DEF2;
+  text-align: justify;
+  font-family: "Farsan", cursive;
+  font-size: 25px;
+}
+.apropos__details {
+  font-family: "Beiruti", sans-serif;
+  font-size: 35px;
+  color: #3F6173;
+}
+.apropos__details--color {
+  font-family: "Beiruti", sans-serif;
+  color: #C8B0B2;
+  text-align: center;
+}
+.apropos__details--link {
+  text-decoration: underline;
+  color: #3F6173;
+}
+.apropos__details--link--color {
+  color: #C8B0B2;
 }/*# sourceMappingURL=index.css.map */

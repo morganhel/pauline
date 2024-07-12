@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home';
+import Apropos from './pages/Apropos';
 import Footer from './components/footer/Footer';
 import './index.css';
 
@@ -13,6 +14,7 @@ root.render(
       
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/apropos" element={<Apropos />} />
       </Routes>
       <Footer />
 
