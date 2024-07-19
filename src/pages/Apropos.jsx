@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from '../components/header/Header';
 import Portrait from '../assets/images/apropos/portrait.jpg';
+import Card from '../components/card/Card';
+import Seances from '../assets/data/seances.json';
 import { NavLink } from "react-router-dom";
 
 function Apropos() {
@@ -23,8 +25,29 @@ function Apropos() {
                     </div>
                     <div>
                     <p className='apropos__details apropos__details--color'>Si ce n’est pas déjà fait tu peux jeter un oeil à mon portfolio juste <NavLink to="/" className='apropos__details--link apropos__details--link--color'>ICI</NavLink>.</p>
-                    <p className='apropos__details'>Et si mon univers te plaît, <NavLink to="/" className='apropos__details--link'>CONTACT MOI</NavLink> et nous discuterons de tes envies. </p>
+                    <p className='apropos__details'>Et si mon univers te plaît, <NavLink to="/apropos#contact" className='apropos__details--link'>CONTACT MOI</NavLink> et nous discuterons de tes envies. </p>
                     </div>
+                </section>
+                <section className='seances'>
+                    <h2>SEANCES</h2>
+                    <div className='seances__content'>
+                        {Seances.map((seance)=>{
+                            return (
+                            <Card 
+                                key={seance.title} 
+                                title={seance.title} 
+                                txt1={seance.txt1}
+                                txt2={seance.txt2}
+                                img={seance.img} 
+                                isNoBg={seance.id % 2 === 0}
+                                />
+                            )
+                        })}
+                    </div>
+                </section>
+                <section className='contact' id="contact">
+                    <h2>CONTACT</h2>
+                    <div></div>
                 </section>
         </main>
         </>

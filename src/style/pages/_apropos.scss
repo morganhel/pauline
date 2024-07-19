@@ -60,4 +60,14 @@
         }
     }
 
+
+}
+
+.seances{
+    @include container;
+
+    &__content{
+        display : flex;
+        gap: 25px;
+    }
 }

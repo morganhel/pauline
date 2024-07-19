@@ -1,0 +1,33 @@
+[
+    {
+        "id": "1",
+        "img": "../assets/images/seances/1.jpg",
+        "title": "FAMILLE",
+        "txt1":"Capturez vos moments précieux en famille ! Que ce soit dans le confort de votre foyer, en pleine nature ou dans un lieu spécial, je suis là pour capturer l'amour, la complicité etles sourires qui vous unissent. Chaque séance est personnalisée pour refléter votre univers familiale et créer des images authentiqes et intemporelles.",
+        "txt2": "Réservez dès maintenant et transformons ensemble vos moments en souvenirs inobliables !"
+    },
+
+    {
+        "id": "2",
+        "img": "../../assets/images/seances/2.jpg",
+        "title": "EVENEMENTS",
+        "txt1":"Immortalisez vos événements d'exception ! Transformez vos événements en souvenirs immortels grâce à une phtographe profesionnelle. Que c soit pour un mariage, un anniversaire, une fête de famille ou tout autre moment spécial, je suis la pour capturer l'essence et l'émotion de chaque instant. Aves une approche discrète et créative, je m'assure que chaque détail et chaque sourire soient immortalisés.",
+        "txt2":"Réservez dès maintenant pour obtenir des images qui raconteront l'histoire de votre événement de manière authentique."
+    },
+
+    {
+        "id": "3",
+        "img": "../../assets/images/seances/3.jpg",
+        "title": "PORTRAIT",
+        "txt1":"Révélez votre personnalité avec des portraits uniques ! Offrez-vous une séance portrait pour capturer votre individualité. Que ce soit pour un usage professionnel, personel ou artistique, je suis la pour créer des images qui vous ressemblent. Avec une approche attentive et douce, je m'assure de vous mettre à l'aise et de mettre en valeur votre singularité à travers chaque photo.",
+        "txt2":"Réservez dès maintenant pour obtenir des portraits authentiques qui vous mettront en lumière."
+    },
+
+    {
+        "id": "4",
+        "img": "../../assets/images/seances/4.jpg",
+        "title": "A THEME",
+        "txt1":"Célébrez les moments spéciaux avec des séances photo à thème ! J'ai à coeur d'organiser toute au long de l'année des séances phot à thème pour immortaliser vos souvenir des fêtes et occasions spéciales. Que ce soit pour Noël, la fête des mères ou toute autre célébration, je suis là pour capturer la magie et la joie de ces moments uniques. Avec des décors et accessoires soignesements sélectionnés, chaque séance est conçu pour refléter l'esprit de la fête et créer des images inoubliables.",
+        "txt2":"Réservez dès maintenant pour obtenir des photos qui rendront chaque occasion encore plus spéciale."
+    }
+]
