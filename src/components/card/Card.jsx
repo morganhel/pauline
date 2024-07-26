@@ -11,7 +11,7 @@ function Card({img,title,txt1,txt2,isNoBg}) {
                     <p className='card__txt--2'>{txt2}</p>
                 </div>
             <NavLink to="/apropos#contact">
-                <button className='card__button'>CONTACTEZ-MOI !</button></NavLink>
+                <button className='card__button'>+ D'INFORMATIONS !</button></NavLink>
             </div>
             <img className='card__img' src={img} alt='offre'/>
         </article>

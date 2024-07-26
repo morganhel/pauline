@@ -71,3 +71,39 @@
         gap: 25px;
     }
 }
+
+.contact{
+    @include container;
+
+
+    &__title{
+        color: $color-3;
+    }
+
+    &__content{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+        &__social{
+
+            &--title{
+                font-family: $police-2;
+                font-size: 40px;
+                font-weight: 300;
+                color: $color-3;
+            }
+
+            &--links{
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                gap:30px;
+
+                img{
+                    height: 100px;
+                }
+            }
+        }
+    }
+}

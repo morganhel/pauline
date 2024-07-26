@@ -3,7 +3,11 @@ import Header from '../components/header/Header';
 import Portrait from '../assets/images/apropos/portrait.jpg';
 import Card from '../components/card/Card';
 import Seances from '../assets/data/seances.json';
+import ContactForm from '../components/contactForm/ContactForm';
 import { NavLink } from "react-router-dom";
+import FB from '../assets/images/apropos/logo/facebook.png';
+import Insta from '../assets/images/apropos/logo/Instagram.webp';
+
 
 function Apropos() {
     return (
@@ -46,8 +50,21 @@ function Apropos() {
                     </div>
                 </section>
                 <section className='contact' id="contact">
-                    <h2>CONTACT</h2>
-                    <div></div>
+                    <h2 className='contact__title'>CONTACT</h2>
+                    <div className='contact__content'>
+                        <ContactForm />
+                        <div className='contact__content__social'>
+                            <h3 className='contact__content__social--title'>RETROUVEZ-MOI ICI AUSSI</h3>
+                            <div className='contact__content__social--links'>
+                                <a href='https://www.facebook.com/Paulineepry?locale=fr_FR'>
+                                    <img src={FB} alt='logo facebook'/>
+                                </a>
+                                <a  href='https://www.instagram.com/paulineparey.photographie?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' >
+                                    <img src={Insta} alt='logo insta'/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </section>
         </main>
         </>
