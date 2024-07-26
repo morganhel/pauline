@@ -169,7 +169,7 @@ h2 {
 }
 .card__img {
   width: 100%;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
 }
 .card__txt {
@@ -191,6 +191,46 @@ h2 {
 .nobg {
   background-color: white;
   flex-direction: column-reverse;
+}
+
+.contactForm {
+  border: 1px solid black;
+  width: 500px;
+  background-color: #3F6173;
+  margin: 0;
+  border-radius: 25px;
+}
+.contactForm__title {
+  text-align: center;
+  padding: 8px;
+  border-bottom: 1px solid black;
+}
+.contactForm__content {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.contactForm__content--input {
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  background-image: none;
+  background-color: #B6DEF2;
+  box-shadow: none;
+  padding: 5px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Beiruti", sans-serif;
+}
+.contactForm__content .button {
+  margin-top: 10px;
+  align-self: center;
+  cursor: pointer;
+  font-weight: 500;
+}
+.contactForm__content textarea {
+  min-height: 80px;
+  resize: vertical;
 }
 
 .page1 {
@@ -269,4 +309,34 @@ h2 {
 .seances__content {
   display: flex;
   gap: 25px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.contact__title {
+  color: #3F6173;
+}
+.contact__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.contact__content__social--title {
+  font-family: "Beiruti", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: #3F6173;
+}
+.contact__content__social--links {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+}
+.contact__content__social--links img {
+  height: 100px;
 }/*# sourceMappingURL=index.css.map */
