@@ -4,7 +4,8 @@
         "img": "../assets/images/seances/1.jpg",
         "title": "Nouveau né",
         "txt1":"Capturez les premiers moments magiques de votre nouveau-né entouré de l'amour de sa famille ! Que ce soit dans le confort de votre foyer, en pleine nature ou dans un lieu spécial, je suis là pour immortaliser ces instants précieux avec douceur et authenticité. Je m'efforce de capturer l'amour, la complicité et les sourires qui vous unissent afin de créer des souvenirs uniques qui reflètent les liens profonds et les émotions de votre nouvelle vie de famille.",
-        "txt2": "Ne laissez pas ces precieux moments s'envoler et réservez dès maintenant votre séance photo!"
+        "txt2": "Ne laissez pas ces precieux moments s'envoler et réservez dès maintenant votre séance photo!",
+        "img2":"../assets/images/seances/price1.jpg"
     },
 
     {
@@ -12,7 +13,8 @@
         "img": "../../assets/images/seances/2.jpg",
         "title": "EVENEMENTS",
         "txt1":"Immortalisez vos événements d'exception ! Transformez vos événements en souvenirs immortels. Que ce soit pour un anniversaire, une fête de famille ou tout autre moment spécial, je suis la pour capturer l'essence et l'émotion de chaque instant. Avec une approche discrète et créative, je m'assure que chaque détail et chaque sourire soient immortalisés.",
-        "txt2":"Réservez dès maintenant pour obtenir des images qui raconteront l'histoire de votre événement de manière authentique."
+        "txt2":"Réservez dès maintenant pour obtenir des images qui raconteront l'histoire de votre événement de manière authentique.",
+        "img2":"../assets/images/seances/price2.jpg"
     },
 
     {
@@ -20,7 +22,8 @@
         "img": "../../assets/images/seances/3.jpg",
         "title": "GROSSESSE",
         "txt1":"Sublimez la beauté et la magie de votre grossesse avec une séance photo pleine de douveur et d'élégance. Que ce soit en extérieur ou dans l'intimité de votre foyer, je vous accompagne pour figer ces instants uniques qui célébrent la vie et la transformation de votre corp. Seule, en couple, ou entourée de vos enfants, chaque séance est personnalisée pour refléter votre style et sublimer ces moments précieux avant l'arrivée de votere bébé.",
-        "txt2":"Réservez dès maintenant pour figer ces moments précieux qui filent à vive allure !"
+        "txt2":"Réservez dès maintenant pour figer ces moments précieux qui filent à vive allure !",
+        "price":"../assets/images/seances/price3.jpg"
     },
 
     {
@@ -28,7 +31,8 @@
         "img": "../../assets/images/seances/4.jpg",
         "title": "Thérapeutique bain bébé",
         "txt1":"Immortalisez ce moment unique et hors du temps ! En collaboration avec Coralie je vous propose une séance photo spécialement conçu pour capturer les moments précieux de votre bébé lors de son bain thalasso. Profitez de l'expertise de Coralie pour offrir à votre bébé une expérience apaisante tout en concervant des images douces et naturelles de ces instants de tendresse. Je me ferait discrète pour ne pas perturber ce moment de calme et de complicité entre vous et votre bébé.",
-        "txt2":"Réservez dès maintenant pour offir à votre bébé un soin libérateur et des souvenirs photo à chérir pour toujours !"
+        "txt2":"Réservez dès maintenant pour offir à votre bébé un soin libérateur et des souvenirs photo à chérir pour toujours !",
+        "price":"../assets/images/seances/price4.jpg"
     },
 
 
