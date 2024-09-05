@@ -6,7 +6,7 @@ import Gallery from '../components/gallery/Gallery';
 function Home() {
     return (
         <>
-        <main>
+        <main id='home'>
             <Banner />
             <div className='page1' id='portfolio'>
             <Header />
