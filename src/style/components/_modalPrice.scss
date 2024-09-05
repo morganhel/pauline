@@ -17,20 +17,25 @@
         width: auto;
         height: 90%;
 
+        @media (max-width: $bp-m) {
+            width:90%;
+            height: auto;
+        }
+
 
         &--close{
             position: absolute;
             right: 0px;
-            font-family: "Poppins", sans-serif;
+            font-family: $police-2;
             font-weight: 500;
             font-size: 40px;
-            background-color: $color-1;
-            width:40px;
-            height: 40px;
             cursor: pointer;
+            background-color: $color-1;
+            width:50px;
+            height: 40px;
             display: flex;
             justify-content: center;
-            align-items: center;
+            padding-bottom: 10px;
         }
 
         &--img{

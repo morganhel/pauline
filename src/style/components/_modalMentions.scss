@@ -19,24 +19,34 @@
         width: 40%;
         height: 70%;
 
+        @media (max-width: $bp-m) {
+            width:90%;
+        }
+
 
         &--close{
             position: absolute;
-            top: 5px;
-            right: 15px;
-            font-family: "Poppins", sans-serif;
-            font-weight: 800;
-            font-size: 20px;
+            right: 0;
+            top:0;
+            font-family: $police-2;
+            font-weight: 500;
+            font-size: 40px;
             cursor: pointer;
+            background-color: $color-1;
+            width:50px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 10px;
         }
 
         &--title{
             font-weight: 700;
-            font-size: 40px;
+            font-size: 30px;
         }
 
         &--txt{
-            max-height: 90%;
+            max-height: 80%;
             overflow-y: auto;
         }
 

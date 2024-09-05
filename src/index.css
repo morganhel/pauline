@@ -164,19 +164,25 @@ img {
   width: auto;
   height: 90%;
 }
+@media (max-width: 767.98px) {
+  .modalPrice__content {
+    width: 90%;
+    height: auto;
+  }
+}
 .modalPrice__content--close {
   position: absolute;
   right: 0px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Beiruti", sans-serif;
   font-weight: 500;
   font-size: 40px;
-  background-color: #733F43;
-  width: 40px;
-  height: 40px;
   cursor: pointer;
+  background-color: #733F43;
+  width: 50px;
+  height: 40px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding-bottom: 10px;
 }
 .modalPrice__content--img {
   max-width: 100%;
@@ -204,21 +210,32 @@ img {
   width: 40%;
   height: 70%;
 }
+@media (max-width: 767.98px) {
+  .modal__content {
+    width: 90%;
+  }
+}
 .modal__content--close {
   position: absolute;
-  top: 5px;
-  right: 15px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-size: 20px;
+  right: 0;
+  top: 0;
+  font-family: "Beiruti", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
   cursor: pointer;
+  background-color: #733F43;
+  width: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
 }
 .modal__content--title {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
 }
 .modal__content--txt {
-  max-height: 90%;
+  max-height: 80%;
   overflow-y: auto;
 }
 .modal__content--paragraph {
