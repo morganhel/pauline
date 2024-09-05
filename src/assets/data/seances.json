@@ -5,7 +5,7 @@
         "title": "Nouveau né",
         "txt1":"Capturez les premiers moments magiques de votre nouveau-né entouré de l'amour de sa famille ! Que ce soit dans le confort de votre foyer, en pleine nature ou dans un lieu spécial, je suis là pour immortaliser ces instants précieux avec douceur et authenticité. Je m'efforce de capturer l'amour, la complicité et les sourires qui vous unissent afin de créer des souvenirs uniques qui reflètent les liens profonds et les émotions de votre nouvelle vie de famille.",
         "txt2": "Ne laissez pas ces precieux moments s'envoler et réservez dès maintenant votre séance photo!",
-        "img2":"../assets/images/seances/price1.jpg"
+        "price":"../assets/images/seances/price1.jpg"
     },
 
     {
@@ -14,7 +14,7 @@
         "title": "EVENEMENTS",
         "txt1":"Immortalisez vos événements d'exception ! Transformez vos événements en souvenirs immortels. Que ce soit pour un anniversaire, une fête de famille ou tout autre moment spécial, je suis la pour capturer l'essence et l'émotion de chaque instant. Avec une approche discrète et créative, je m'assure que chaque détail et chaque sourire soient immortalisés.",
         "txt2":"Réservez dès maintenant pour obtenir des images qui raconteront l'histoire de votre événement de manière authentique.",
-        "img2":"../assets/images/seances/price2.jpg"
+        "price":"../assets/images/seances/price2.jpg"
     },
 
     {

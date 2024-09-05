@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import Modal from '../modal/Modal';
+import Modal from '../modalPrice/ModalPrice';
 
-function Card({img,title,txt1,txt2,img2,isNoBg}) {
+function Card({img,title,txt1,txt2,price,isNoBg}) {
     const [showModal, setShowModal]=useState(false);
     const handleClick = () => {setShowModal(true)};
     const closeModal = () => {setShowModal(false)};
@@ -17,9 +17,9 @@ function Card({img,title,txt1,txt2,img2,isNoBg}) {
                 </div>
                 <button className='card__button' onClick={handleClick}>+ D'INFORMATIONS !</button>
             </div>
-            <img className='card__img' src={img2} alt='offre'/>
+            <img className='card__img' src={img} alt='offre'/>
         </article>
-        {showModal && <Modal onClose={closeModal} img={img2}/>}
+        {showModal && <Modal onClose={closeModal} price={price}/>}
         </>
     )
 }

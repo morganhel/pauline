@@ -43,6 +43,7 @@ function Apropos() {
                                 txt1={seance.txt1}
                                 txt2={seance.txt2}
                                 img={seance.img} 
+                                price={seance.price}
                                 isNoBg={seance.id % 2 === 0}
                                 />
                             )
