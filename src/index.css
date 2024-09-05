@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Farsan&family=Jomolhari&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Farsan&family=Jomolhari&family=Parisienne&family=Playwrite+AU+TAS:wght@100..400&display=swap");
 h2 {
   font-family: "Jomolhari", serif;
   color: #733F43;
@@ -282,7 +282,7 @@ img {
   height: auto;
   display: block;
   font-family: "Farsan", cursive;
-  font-size: 20px;
+  font-size: 22px;
   text-align: justify;
 }
 .card__button {
@@ -395,16 +395,16 @@ img {
 }
 .apropos__content__txt--title {
   color: white;
-  font-family: "Farsan", cursive;
-  font-size: 35px;
+  font-family: "Parisienne", cursive;
+  font-size: 40px;
   font-weight: 100;
   margin: 0;
 }
 .apropos__content__txt--p {
   color: #B6DEF2;
   text-align: justify;
-  font-family: "Farsan", cursive;
-  font-size: 25px;
+  font-family: "Playwrite AU TAS", cursive;
+  font-size: 18px;
 }
 .apropos__details {
   font-family: "Beiruti", sans-serif;
