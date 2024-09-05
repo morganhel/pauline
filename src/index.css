@@ -5,6 +5,11 @@ h2 {
   font-size: 35px;
 }
 
+img {
+  pointer-events: none;
+  user-select: none;
+}
+
 .banner {
   height: 100vh;
   position: relative;

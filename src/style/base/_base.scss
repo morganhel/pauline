@@ -3,3 +3,8 @@ h2{
     color: $color-1;
     font-size:35px;
 }
+
+img {
+    pointer-events: none;
+    user-select: none;
+}

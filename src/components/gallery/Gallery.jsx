@@ -8,8 +8,7 @@ function Gallery() {
             <div className='gallery__content'>
                 {Photos.map((photo)=>{
                     return(
-                        console.log(photo.src),
-                    <img src={photo.src} alt='exemple' />
+                        <img src={photo.src} alt='exemple' />
                     )
                 })}
             </div>
