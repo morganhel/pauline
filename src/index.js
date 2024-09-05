@@ -5,12 +5,14 @@ import Home from './pages/Home';
 import Apropos from './pages/Apropos';
 import Footer from './components/footer/Footer';
 import './index.css';
+import ScrollToHash from './components/scrollToHash/ScrollToHash';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
+    <ScrollToHash />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/apropos" element={<Apropos />} />

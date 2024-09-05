@@ -12,7 +12,7 @@ import Insta from '../assets/images/apropos/logo/Instagram.webp';
 function Apropos() {
     return (
         <>
-        <main>
+        <main  id='apropos'>
             <Header />
                 <section className='apropos'>
                     <h2>A PROPOS</h2>
@@ -32,7 +32,7 @@ function Apropos() {
                     <p className='apropos__details'>Et si mon univers te plaît, <NavLink to="/apropos#contact" className='apropos__details--link'>CONTACT MOI</NavLink> et nous discuterons de tes envies. </p>
                     </div>
                 </section>
-                <section className='seances'>
+                <section className='seances' id='seances'>
                     <h2>SEANCES</h2>
                     <div className='seances__content'>
                         {Seances.map((seance)=>{

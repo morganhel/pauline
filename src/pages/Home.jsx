@@ -10,7 +10,7 @@ function Home() {
             <Banner />
             <div className='page1' id='portfolio'>
             <Header />
-                <section className='portfolio'>
+                <section className='portfolio' id='portfolio'>
                     <h2 className='portfolio__title'>PORTFOLIO</h2>
                     <Gallery />
                 </section>

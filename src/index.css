@@ -240,7 +240,7 @@ img {
   border: 1px solid black;
   width: 500px;
   background-color: #3F6173;
-  margin: 0;
+  margin: 0 0 20px 0;
   border-radius: 25px;
 }
 .contactForm__title {
@@ -284,15 +284,15 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 30px;
-  padding-bottom: 30px;
+  padding-top: 30px;
+  padding: 0 10px 30px 1em;
 }
 
 .apropos {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 30px;
+  padding-top: 30px;
 }
 .apropos__content {
   background-color: #3F6173;
@@ -347,7 +347,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 30px;
+  padding-top: 30px;
 }
 .seances__content {
   display: flex;
@@ -360,7 +360,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 30px;
+  padding-top: 30px;
 }
 .contact__title {
   color: #3F6173;
