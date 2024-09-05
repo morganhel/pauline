@@ -37,6 +37,11 @@ img {
   color: #3F6173;
   margin: 0;
 }
+@media (max-width: 767.98px) {
+  .banner__content--title {
+    font-size: 25px;
+  }
+}
 
 .nav {
   margin: 0;
@@ -46,11 +51,21 @@ img {
   list-style: none;
   align-items: center;
 }
+@media (max-width: 767.98px) {
+  .nav {
+    padding: 0 15px;
+  }
+}
 .nav__link {
   font-family: "Beiruti", sans-serif;
   color: #2d4552;
   font-size: 25px;
   cursor: pointer;
+}
+@media (max-width: 767.98px) {
+  .nav__link {
+    font-size: 18px;
+  }
 }
 .nav__link:hover {
   text-decoration: underline;
@@ -74,8 +89,19 @@ img {
   left: 0;
   height: 100%;
 }
+@media (max-width: 767.98px) {
+  .header__logo {
+    height: 35px;
+    top: 0;
+  }
+}
 .header__nav {
   margin-top: 20px;
+}
+@media (max-width: 767.98px) {
+  .header__nav {
+    margin-top: 30px;
+  }
 }
 
 .gallery__content {
@@ -86,6 +112,16 @@ img {
   width: 100%;
   margin-bottom: 1em;
   display: block;
+}
+@media (max-width: 1024px) {
+  .gallery__content {
+    column-count: 3;
+  }
+}
+@media (max-width: 767.98px) {
+  .gallery__content {
+    column-count: 2;
+  }
 }
 
 .footer {
@@ -199,6 +235,16 @@ img {
   background-color: #C8B0B2;
   color: #733F43;
 }
+@media (max-width: 1024px) {
+  .card {
+    width: 40%;
+  }
+}
+@media (max-width: 767.98px) {
+  .card {
+    width: 80%;
+  }
+}
 .card__content {
   display: flex;
   flex-direction: column;
@@ -216,7 +262,7 @@ img {
   object-fit: cover;
 }
 .card__txt {
-  height: 360px;
+  height: auto;
   display: block;
   font-family: "Farsan", cursive;
   font-size: 20px;
@@ -240,8 +286,13 @@ img {
   border: 1px solid black;
   width: 500px;
   background-color: #3F6173;
-  margin: 0 0 20px 0;
+  margin: 0;
   border-radius: 25px;
+}
+@media (max-width: 767.98px) {
+  .contactForm {
+    width: 90%;
+  }
 }
 .contactForm__title {
   text-align: center;
@@ -301,10 +352,23 @@ img {
   justify-content: space-around;
   gap: 100px;
 }
+@media (max-width: 1024px) {
+  .apropos__content {
+    flex-direction: column;
+    padding: 25px 25px;
+    align-items: center;
+    gap: 25px;
+  }
+}
 .apropos__content__photo {
   object-fit: cover;
   border-radius: 25px;
   border: solid 20px #B6DEF2;
+}
+@media (max-width: 1024px) {
+  .apropos__content__photo {
+    width: 50%;
+  }
 }
 .apropos__content__txt {
   display: flex;
@@ -369,6 +433,14 @@ img {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 20px;
+}
+@media (max-width: 1024px) {
+  .contact__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .contact__content__social--title {
   font-family: "Beiruti", sans-serif;

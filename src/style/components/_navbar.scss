@@ -6,12 +6,20 @@
     list-style: none;
     align-items: center;
 
+    @media (max-width: $bp-m) {
+        padding: 0 15px;
+    }
+
 
     &__link{
         font-family: $police-2;
         color: $color-3b;
         font-size: 25px;
         cursor: pointer;
+
+        @media (max-width: $bp-m) {
+            font-size: 18px;
+        }
 
         &:hover{
             text-decoration: underline;

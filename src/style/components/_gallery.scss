@@ -9,5 +9,13 @@
             margin-bottom: 1em;
             display:block;
         }
+
+        @media (max-width: $bp-t) {
+            column-count: 3;
+        }
+
+        @media (max-width: $bp-m) {
+            column-count: 2;
+        }
     }
 }

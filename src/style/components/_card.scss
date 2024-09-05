@@ -8,6 +8,14 @@
     background-color: $color-2;
     color: $color-1;
 
+    @media (max-width: $bp-t) {
+        width: 40%;
+    }
+
+    @media (max-width: $bp-m) {
+        width:80%;
+    }
+
     &__content{
         display: flex;
         flex-direction: column;
@@ -28,7 +36,7 @@
     }
 
     &__txt{
-        height: 360px;
+        height: auto;
         display: block;
         font-family: $police-3;
         font-size: 20px;
